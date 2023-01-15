@@ -13,7 +13,7 @@ sudo vi /opt/systemd/vboxhostonly
 
 vboxmanage hostonlyif create
 vboxmanage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1
-vboxmanage hostonlyif remove "vboxnet1" > /dev/null 2>&1; done
+vboxmanage hostonlyif remove "vboxnet1" > /dev/null 2>&1
 
 ```
 
